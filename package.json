@@ -1,0 +1,35 @@
+{
+  "name": "chat_application",
+  "version": "1.0.0",
+  "description": "An express js chat application",
+  "homepage": "https://github.com/ankonroy/chat_application_expressJs#readme",
+  "bugs": {
+    "url": "https://github.com/ankonroy/chat_application_expressJs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankonroy/chat_application_expressJS.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&& nodemon app.js",
+    "prod": "set NODE_ENV=production&& node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1"
+  }
+}
